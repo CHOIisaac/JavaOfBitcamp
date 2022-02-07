@@ -1,0 +1,13 @@
+package jb01.part02;
+/*
+ * FileName : Hello.java
+ */
+
+public class Hello {
+	//==> 1줄 주석 : 컴파일시 주석문은 컴파일시 제외
+	// java 실행에 필요한 method : main mathod
+	public static void main(String[] args) {
+		System.out.println("Hello Java :: 안녕 자바");
+	}
+
+}

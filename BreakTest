@@ -1,0 +1,30 @@
+package jb02.part03;
+
+/*
+ * ==>keyword : break ==> 자신이 속한 반복문 종료 
+ * ==>break문을 이용해 입력받은 수까지의 합을 구하기
+ * ==>java breakTest 10==> 이면 1~10 더해서 출
+ */
+
+public class BreakTest {
+
+	public static void main(String[] args) {
+		int inputData = Integer.parseInt(args[0]);
+		
+		int i = 0; // while문 초기화 변수 선언 
+		
+		int sum = 0; // 더한 값은 저장하기 위한 변수 선언
+		
+		while(true) {
+			i++;
+			sum += i;
+			
+			if(i==inputData) {
+				break;
+			}
+		}
+		System.out.println("0~"+inputData+" 까지의 합은 : "+sum+"입니다.");
+		
+	}
+
+}
